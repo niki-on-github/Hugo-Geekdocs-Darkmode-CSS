@@ -1,0 +1,54 @@
+/* geekdocs_dark.css */
+
+/* default colors */
+html, body, input, textarea, select, button, .chroma { background-color: #181a1b; color: #cccccc; }
+
+/* buttons */
+.gdoc-button { color: #cccccc; border-color: #707070; }
+
+/* default link color */
+a { color: #1d99f3; }
+a:visited { color: #1d99f3; }
+
+/* headings */
+h1, h2, h3, h4, h5, h6 { color: #1d99f3; }
+
+/* navigation bar colors */
+.gdoc-nav__entry { color: #cccccc; }
+.gdoc-search__input { background-color: #1b1e1f; border-color: #707070; color: #aaaaaa; }
+
+/* toc colors */
+.gdoc-toc a { color: #1d99f3; }
+
+/* site header */
+.gdoc-header { background: #0d68c1; border-color: #707070; }
+.gdoc-header__link, .gdoc-header__link:visited { color: #ffffff; }
+
+/* page links */
+.gdoc-page__footer a, .gdoc-page__footer a:visited { color: #1d99f3; }
+.gdoc-page__header a, .gdoc-page__header a:visited { color: #1d99f3; }
+.gdoc-page__header { background-color: #1d2020; }
+
+/* site footer */
+.gdoc-footer { background-color: #181a1b; color: #cccccc; }
+.gdoc-footer__link { color: #1d99f3; }
+.gdoc-footer__link:visited, .gdoc-footer__link:hover { color: #1d99f3; }
+
+/* tables */
+.gdoc-tabs, .gdoc-markdown table tr td, .gdoc-markdown table tr th, .chroma .lntable td:first-child code { border-color: #707070; }
+.gdoc-markdown table thead, .gdoc-markdown table tr:nth-child(2n) { background: #1d2020; }
+
+/* tabs */
+.gdoc-tabs__content { border-color: #181a1b; }
+.gdoc-expand__head { background-color: #1d2020; }
+
+/* hint blocks */
+.gdoc-hint.danger { border-left-color: #ff0000; background-color: rgba(255,0,0,0.1); }
+.gdoc-hint.warning { border-left-color: #e49b0f; background-color: rgba(228,155,15,0.16); }
+.gdoc-hint.info { border-left-color: #004daa; background-color: rgba(0,77,170,0.18); }
+
+/* code blocks (specified colors get inverted) */
+.chroma .hl { background-color: rgba(26,137,218,0.7); }
+.chroma .err { background-color: rgba(0,255,255,0.2); }
+.chroma code, .gdoc-markdown code { filter: invert(100%) brightness(90%) contrast(90%); color: #101010; }
+.chroma code, .gdoc-markdown code, .chroma .lntable td:first-child code { background-color: #e2dfdf; }
