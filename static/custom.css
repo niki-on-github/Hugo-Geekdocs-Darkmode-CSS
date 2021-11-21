@@ -52,3 +52,6 @@ h1, h2, h3, h4, h5, h6 { color: #1d99f3; }
 .chroma .err { background-color: rgba(0,255,255,0.2); }
 .chroma code, .gdoc-markdown code { filter: invert(100%) brightness(90%) contrast(90%); color: #101010; }
 .chroma code, .gdoc-markdown code, .chroma .lntable td:first-child code { background-color: #e2dfdf; }
+
+/* hide double title on page */
+h1:not([id]) { display: none; }
